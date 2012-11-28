@@ -16,7 +16,6 @@ archive/a_domlog.nsf
 archive/l_domlog.nsf
 billing.nsf
 bookmark.nsf
-Bookmark.nsf
 bookmarks.nsf
 books.nsf
 BusyTime.nsf
@@ -207,6 +206,7 @@ mail/administrator.nsf
 mail/adminisist.nsf
 mail/admin.nsf
 mail.box
+mailbox.nsf
 mailw46.nsf
 migrate.nsf
 msdwda.nsf
