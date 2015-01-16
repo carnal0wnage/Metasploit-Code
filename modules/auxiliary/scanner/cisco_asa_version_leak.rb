@@ -46,7 +46,7 @@ class Metasploit3 < Msf::Auxiliary
       elsif (res.code == 200)
         if (res.body =~ /<version who="sg">(.*?)<\/version>/im )
           blah = $1
-          print_good("ASA Version: #{blah}")
+          print_good("#{target_host}:#{rport}-ASA Version: #{blah}")
           report_note(
                       :host        => target_host,
                       :proto       => 'tcp',
